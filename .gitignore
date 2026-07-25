@@ -4,7 +4,6 @@
 
 # Local-only (never commit)
 config/prefs.yaml
-recipes/*
-!recipes/.gitkeep
+/recipes
 video-inbox/*
 !video-inbox/README.md
