@@ -1,3 +1,10 @@
 # Pix Agent
 .pi/
 .pi-lens/
+
+# Local-only (never commit)
+config/prefs.yaml
+recipes/*
+!recipes/.gitkeep
+video-inbox/*
+!video-inbox/README.md

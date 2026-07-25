@@ -1,0 +1,35 @@
+# Meal-prep preferences. Copy to prefs.yaml and edit, or let the skill
+# interview you on first run. prefs.yaml is gitignored.
+initialized: false
+
+# People + portions
+people: 2
+meals_per_person: 5      # aim 10-12 total portions; adjust to taste
+
+# Diet / allergens (free text list)
+diet: []                  # e.g. ["vegetarian", "gluten-free"]
+allergens: []            # e.g. ["peanuts", "shellfish"]
+
+# Cuisines
+cuisines_love: []        # e.g. ["Thai", "Mexican", "Indian"]
+cuisines_avoid: []       # e.g. ["heavy cream sauces"]
+
+# Hard dislikes (auto-drop any recipe using these)
+dislikes: []             # e.g. ["olives", "liver"]
+
+# Equipment available (affects hands-on score + sourcing)
+equipment: []            # e.g. ["slow cooker", "instant pot", "large freezer", "dutch oven", "sheet pans"]
+
+# Budget posture
+budget: flexible         # flexible | cheap-first | splurge-ok
+
+# Protein preferences
+proteins_preferred: []   # e.g. ["chicken thighs", "beef chuck", "tofu", "beans"]
+proteins_avoid: []
+
+# Sourcing
+sources:                 # which channels to pull from
+  rss: true
+  web_search: true
+  video: true
+  recipe_mcp: false      # flip true once recipe-mcp MCP server is connected
